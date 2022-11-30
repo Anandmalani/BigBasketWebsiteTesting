@@ -66,7 +66,7 @@ public class AddItemsPage {
 	
 	public void removeOneItem() {
 		
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 25);
 		wait.until(ExpectedConditions.elementToBeClickable(removeOneItemWebElement));
 		removeOneItemWebElement.click();
 		
